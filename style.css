@@ -118,7 +118,7 @@ header.site-header {
         text-overflow: unset; /* Show full text without ellipsis */
         line-height: 1.8; /* Adjust line height for better readability */
         font-size: 0.9rem; /* Slightly smaller text for smaller screens */
-        margin-top: 70px; /* Move the text section further down */
+        margin-top: 100px; /* Move the text section further down */
     }
 
     main.cards {
