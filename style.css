@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: black;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: flex-start; /* Start content at the top */
+    align-items: center; /* Center horizontally */
+    color: #434343;
+    font-size: 16px;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    padding-top: 100px; /* Account for fixed header */
+}
+
+header.site-header {
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: space-between; /* Space between logo/title and buttons */
+    align-items: center;
+    padding: 16px 32px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Make logo and title clickable */
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use default text color */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: opacity 0.3s ease; /* Add hover effect */
+}
+
+.logo-link:hover {
+    opacity: 0.8; /* Slight fade effect on hover */
+}
+
+.header-buttons {
+    display: flex;
+    gap: 12px; /* Space between buttons */
+}
+
+.header-button {
+    padding: 0.6rem 1.2rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: black;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.header-button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Information Text Section */
+.info-text {
+    width: 100%;
+    max-width: 1250px; /* Ensure the text fits within the page width */
+    margin: 20px auto 0; /* Center the text section */
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0 16px; /* Add padding for smaller screens */
+    white-space: nowrap; /* Prevent text wrapping on larger screens */
+    overflow: hidden; /* Ensure text does not overflow the container */
+    text-overflow: ellipsis; /* Add ellipsis if text overflows */
+}
+
+.info-text p {
+    margin-bottom: 12px; /* Add spacing between paragraphs */
+}
+
+/* Mobile View Adjustments */
+@media screen and (max-width: 720px) {
+    .info-text {
+        white-space: normal; /* Allow text to wrap to multiple lines */
+        overflow: visible; /* Remove overflow constraints */
+        text-overflow: unset; /* Show full text without ellipsis */
+        line-height: 1.8; /* Adjust line height for better readability */
+        font-size: 0.9rem; /* Slightly smaller text for smaller screens */
+        margin-top: 70px; /* Move the text section further down */
+    }
+
+    main.cards {
+        margin-top: 20px; /* Ensure proper spacing below the text */
+    }
+}
+
+
+/* Ensure spacing between info text and cards */
+main.cards {
+    margin-top: 20px; /* Add space between info text and cards */
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Flexible card layout */
+    gap: 16px; /* Space between cards */
+    width: 100%; /* Ensure it spans the container */
+    max-width: 1200px; /* Limit the width of the layout */
+    justify-content: center; /* Center cards horizontally */
+    align-items: stretch; /* Stretch all cards to match height */
+    padding: 16px;
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure content spacing is even */
+    align-items: center;
+    text-align: center;
+    background: #434343;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    height: auto; /* Allow cards to adjust dynamically based on content */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+main.cards section.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.6);
+}
+
+main.cards section.card .icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 16px;
+}
+
+main.cards section.card img {
+    width: 100%;
+}
+
+main.cards section.card h2 {
+    font-size: 1.5rem;
+    margin: 16px 0;
+    font-weight: 600;
+}
+
+main.cards section.card span {
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 0.9rem;
+    margin-bottom: 16px;
+}
+
+main.cards section.card button {
+    padding: 0.6rem 1.2rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px;
+    background-color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+main.cards section.card button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Mobile View Adjustments */
+@media screen and (max-width: 720px) {
+    body {
+        align-items: flex-start; /* Align cards at the top on mobile */
+        padding-top: 100px; /* Ensure space for the fixed header */
+    }
+
+    header.site-header {
+        flex-wrap: wrap; /* Stack elements when space is tight */
+        padding: 12px 16px;
+        justify-content: center; /* Center header content */
+    }
+
+    .header-buttons {
+        flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+        justify-content: center;
+        gap: 8px; /* Reduce gap for smaller screens */
+    }
+
+    main.cards {
+        grid-template-columns: 1fr; /* Stack cards vertically */
+        gap: 16px; /* Maintain space between cards */
+        padding: 16px;
+        margin-top: 50px; /* Move cards further down */
+    }
+
+    main.cards section.card {
+        width: 65%; /* Ensure cards are narrower on smaller screens */
+        margin: 0 auto; /* Center cards horizontally */
+    }
+
+    .header-button {
+        font-size: 0.75rem; /* Reduce button size */
+        padding: 0.5rem 1rem;
+    }
+}
