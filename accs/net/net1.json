@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "exportTimestamp": "2024-11-24T06:47:38.739Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "extensionVersion": "0.0",
+    "totalLocalStorageItems": 5,
+    "totalSessionStorageItems": 0,
+    "totalCookies": 5
+  },
+  "url": "https://www.netflix.com/browse",
+  "localStorage": {
+    "bounceLolomo": "false",
+    "MDX_PROFILEID": "{\"id\":\"ODSIXQFCZFDGTOIMQDWTR4HCLY\",\"data\":\"ODSIXQFCZFDGTOIMQDWTR4HCLY\"}",
+    "_grecaptcha": "09ANOXeZz30Ex5ixRhPE4GSjaa431s-djDzB-Czv9fD7u3W1tm_TgQUQpF-Fo8fA7Veh-bIF9Y7GcyujQR-pr8KkUcQSZPc5irxcGp7H6BCfTt5UV3k2EBBZSbA7uu2_zr",
+    "MDX_USERID": "{\"id\":null,\"data\":\"\"}",
+    "MDX_REMOTE_DEVICE_MAP": "{\"id\":\"ODSIXQFCZFDGTOIMQDWTR4HCLY\",\"data\":\"{}\"}"
+  },
+  "sessionStorage": {},
+  "cookies": [
+    {
+      "name": "flwssn",
+      "value": "57cd8b4a-ba7f-40a6-ae02-43f02e4935fd",
+      "domain": ".netflix.com",
+      "secure": false,
+      "httpOnly": false
+    },
+    {
+      "name": "nfvdid",
+      "value": "BQFmAAEBEMv-KIyNchRXKYK_KYAEolNgBtczADQFPhHAAeefqL9f6wqRUMscbQ2BZySiCaxlMRzN5QSGtonwRJAC8vQD6OVuJVks5tUQolxB3uKEJhXazBUugO0i7kA03VG6HDXAorEHAJvvpjtMy69I2orPPh_C",
+      "domain": ".netflix.com",
+      "secure": false,
+      "httpOnly": false
+    },
+    {
+      "name": "SecureNetflixId",
+      "value": "v%3D3%26mac%3DAQEAEQABABRNSjBOcT2v8Y0lhGCHARhOZfDc0LwLtJY.%26dt%3D1732430807308",
+      "domain": ".netflix.com",
+      "secure": true,
+      "httpOnly": true
+    },
+    {
+      "name": "NetflixId",
+      "value": "v%3D3%26ct%3DBgjHlOvcAxKAAxc-apMcW2Yd31c81aTyz8NVEWbONshJHnhWruAVlhTCfdYTK-6O544nVw4SHlXyH7t5zBu54QiRoOjyJNA-m-yLfq8AOfezmv32U5jR3BU1eSvcOfhIh2XmqGRdQ0gi5jWFF73lCmfJbEZZI_aPV77x_smuEaprM2GZpm15y1NSs3XZF4kWt3FhuJ12zM4xxdaAnoc3KDf3TYTeElGVi8knQrTMcCqUfQzF8GUR-IxnOs8nqphcCDzhRJs9FjjmGrOBqxWvfJmREH6UixMHQH10sn1kkOi0hd8DgIxJd1nGP_qzNwLaVyp1z0w0joTz60VINSM1zXnTNzdvNIugBQI4SO89zTiw0UepY0789JrJ4H92S5juyL_Zm6A3q4nz4YyUF4RYmJQfCTqHAvrveMY3XNzLlVm9YoqVgxP9IxPBpQRqyOjlEWAvbxkQ987cdifW5KArSO5ytQsWOdyZ3ClX_UWlTWSoSjuxHB4AFo2iRoxfx7hUMs7y4rS-4ODgDxgGIg4KDI7c53R9dFvmKHKVJQ..%26ch%3DAQEAEAABABQwhKrNPddAp5T5rvRMxqEmlu_Iopwyo3M.",
+      "domain": ".netflix.com",
+      "secure": true,
+      "httpOnly": true
+    },
+    {
+      "name": "profilesNewSession",
+      "value": "0",
+      "domain": ".netflix.com",
+      "secure": false,
+      "httpOnly": false
+    }
+  ]
+}
