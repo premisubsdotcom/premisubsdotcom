@@ -48,15 +48,15 @@ document.addEventListener("DOMContentLoaded", () => {
         'contact-us': () => {
             const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
             const targetURL = isMobile
-                ? "https://telegram.openinapp.co/dsd2r"
-                : "https://web.telegram.org/k/#@subsurfin_admin";
+                ? "https://telegram.openinapp.co/x9dr4"
+                : "https://web.telegram.org/k/#@premisubs_admin";
             window.open(targetURL, '_blank');
         },
         'join-telegram': () => {
             const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
             const targetURL = isMobile
-                ? "https://telegram.openinapp.co/knrhx"
-                : "https://web.telegram.org/k/#@subsurfin";
+                ? "https://telegram.openinapp.co/tkke1"
+                : "https://web.telegram.org/k/#@premisubs";
             window.open(targetURL, '_blank');
         },
         'download-extension': () => {
