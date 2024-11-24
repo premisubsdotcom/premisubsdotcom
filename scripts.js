@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
             window.open(targetURL, '_blank');
         },
         'download-extension': () => {
-            const extensionURL = "https://drive.google.com/file/d/1kcHOkDKMf1hBr2mJIx8LPBy8X4E3wfzw/view?usp=sharing";
+            const extensionURL = "https://drive.google.com/file/d/19cuO4nk5EPLZfY18gvtseSONWUEc_zXF/view?usp=sharing";
             window.open(extensionURL, '_blank');
         },
         'netflix-access': () => {
