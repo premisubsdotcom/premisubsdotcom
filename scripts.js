@@ -77,37 +77,43 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Function to handle JSON file access buttons
-function handleJsonAccess(buttonId, directoryPath) {
+function handleJsonAccess(buttonId, filePaths) {
     const button = document.getElementById(buttonId);
     if (button) {
-        button.addEventListener('click', async function () {
-            try {
-                const response = await fetch(`${directoryPath}/files.json`);
-                if (!response.ok) throw new Error('Unable to fetch account files.');
-
-                const files = await response.json(); // Parse the JSON file
-                const jsonFiles = files.filter(file => file.endsWith('.json'));
-
-                if (jsonFiles.length > 0) {
-                    const randomFile = jsonFiles[Math.floor(Math.random() * jsonFiles.length)];
-                    const fileURL = `${directoryPath}/${randomFile}`;
-                    window.open(fileURL, '_blank');
-                } else {
-                    showPopup('No accounts right now, will add in few moments, please try again later');
-                }
-            } catch (error) {
-                console.error(error);
-                showPopup('An error occurred. Please try again later.');
+        button.addEventListener('click', function () {
+            if (filePaths.length > 0) {
+                const randomFile = filePaths[Math.floor(Math.random() * filePaths.length)];
+                window.open(randomFile, '_blank'); // Open the randomly selected file in a new tab
+            } else {
+                showPopup('No accounts right now, will add in a few moments. Please try again later.');
             }
         });
     }
 }
 
+// Define file paths for each category
+const netflixFiles = [
+    '/accs/net/net1.json',
+    '/accs/net/net2.json'
+];
+const chatgptFiles = [
+    '/accs/chat/chat1.json',
+    '/accs/chat/chat2.json'
+];
+const primeFiles = [
+    '/accs/prime/prime1.json',
+    '/accs/prime/prime2.json'
+];
+const crunchyrollFiles = [
+    '/accs/crunchy/crunchy1.json',
+    '/accs/crunchy/crunchy2.json'
+];
+
 // Apply JSON file access handling for all buttons
-handleJsonAccess('netflix-access', '/accs/net');
-handleJsonAccess('chatgpt-access', '/accs/chat');
-handleJsonAccess('prime-access', '/accs/prime');
-handleJsonAccess('crunchyroll-access', '/accs/crunchy');
+handleJsonAccess('netflix-access', netflixFiles);
+handleJsonAccess('chatgpt-access', chatgptFiles);
+handleJsonAccess('prime-access', primeFiles);
+handleJsonAccess('crunchyroll-access', crunchyrollFiles);
 
 // Function to display a popup message
 function showPopup(message) {
