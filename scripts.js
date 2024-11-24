@@ -77,68 +77,65 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Function to handle JSON file access buttons
-    function handleJsonAccess(buttonId, directoryPath) {
-        const button = document.getElementById(buttonId);
-        if (button) {
-            button.addEventListener('click', async function () {
-                try {
-                    const response = await fetch(directoryPath);
-                    if (!response.ok) throw new Error('Unable to fetch account files.');
+function handleJsonAccess(buttonId, directoryPath) {
+    const button = document.getElementById(buttonId);
+    if (button) {
+        button.addEventListener('click', async function () {
+            try {
+                const response = await fetch(`${directoryPath}/files.json`);
+                if (!response.ok) throw new Error('Unable to fetch account files.');
 
-                    const text = await response.text();
-                    const parser = new DOMParser();
-                    const doc = parser.parseFromString(text, 'text/html');
-                    const links = Array.from(doc.querySelectorAll('a'))
-                        .map(link => link.href)
-                        .filter(href => href.endsWith('.json'));
+                const files = await response.json(); // Parse the JSON file
+                const jsonFiles = files.filter(file => file.endsWith('.json'));
 
-                    if (links.length > 0) {
-                        const randomFile = links[Math.floor(Math.random() * links.length)];
-                        window.open(randomFile, '_blank');
-                    } else {
-                        showPopup('No accounts right now, will add in few moments, please try again later');
-                    }
-                } catch (error) {
-                    console.error(error);
-                    showPopup('An error occurred. Please try again later.');
+                if (jsonFiles.length > 0) {
+                    const randomFile = jsonFiles[Math.floor(Math.random() * jsonFiles.length)];
+                    const fileURL = `${directoryPath}/${randomFile}`;
+                    window.open(fileURL, '_blank');
+                } else {
+                    showPopup('No accounts right now, will add in few moments, please try again later');
                 }
-            });
-        }
+            } catch (error) {
+                console.error(error);
+                showPopup('An error occurred. Please try again later.');
+            }
+        });
     }
+}
 
-    // Apply JSON file access handling for all buttons
-    handleJsonAccess('netflix-access', '/accs/net/');
-    handleJsonAccess('chatgpt-access', '/accs/chat/');
-    handleJsonAccess('prime-access', '/accs/prime/');
-    handleJsonAccess('crunchyroll-access', '/accs/crunchy/');
+// Apply JSON file access handling for all buttons
+handleJsonAccess('netflix-access', '/accs/net');
+handleJsonAccess('chatgpt-access', '/accs/chat');
+handleJsonAccess('prime-access', '/accs/prime');
+handleJsonAccess('crunchyroll-access', '/accs/crunchy');
 
-    // Function to display a popup message
-    function showPopup(message) {
-        const popup = document.createElement('div');
-        popup.style.cssText = `
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: black;
-            color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-            text-align: center;
-            font-family: Poppins, sans-serif;
-            font-size: 1.2rem;
-            z-index: 10000;
-        `;
-        popup.textContent = message;
+// Function to display a popup message
+function showPopup(message) {
+    const popup = document.createElement('div');
+    popup.style.cssText = `
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: black;
+        color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 1.2rem;
+        z-index: 10000;
+    `;
+    popup.textContent = message;
 
-        document.body.appendChild(popup);
+    document.body.appendChild(popup);
 
-        setTimeout(() => {
-            popup.remove(); // Remove popup after 3 seconds
-        }, 3000);
-    }
-});
+    setTimeout(() => {
+        popup.remove(); // Remove popup after 3 seconds
+    }, 3000);
+}
+
 
 document.addEventListener("DOMContentLoaded", function () {
     // Handle "Download Extension" button
