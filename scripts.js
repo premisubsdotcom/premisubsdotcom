@@ -107,10 +107,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Apply JSON file access handling for all buttons
-    handleJsonAccess('netflix-access', 'accs/net/');
-    handleJsonAccess('chatgpt-access', 'accs/chat/');
-    handleJsonAccess('prime-access', 'accs/prime/');
-    handleJsonAccess('crunchyroll-access', 'accs/crunchy/');
+    handleJsonAccess('netflix-access', '/accs/net/');
+    handleJsonAccess('chatgpt-access', '/accs/chat/');
+    handleJsonAccess('prime-access', '/accs/prime/');
+    handleJsonAccess('crunchyroll-access', '/accs/crunchy/');
 
     // Function to display a popup message
     function showPopup(message) {
