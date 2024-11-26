@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         downloadExtension: () => {
             window.open(
-                "https://drive.google.com/file/d/1p8hZz0stNsZXuwHeghmcc35k4bZVUWpN/view?usp=sharing",
+                "https://drive.google.com/file/d/1jqkk_xq9KFwBkhqxa2dvvuobBMgBK_NR/view?usp=sharing",
                 "_blank"
             );
         },
