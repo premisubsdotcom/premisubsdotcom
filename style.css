@@ -94,7 +94,7 @@ header.site-header {
 /* Information Text Section */
 .info-text {
     width: 100%;
-    max-width: 1250px; /* Ensure the text fits within the page width */
+    max-width: 1300px; /* Ensure the text fits within the page width */
     margin: 20px auto 0; /* Center the text section */
     text-align: center;
     color: white;
