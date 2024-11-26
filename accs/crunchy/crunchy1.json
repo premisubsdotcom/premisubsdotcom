@@ -1,1 +1,142 @@
-crunchyroll accounts are not available right now, will add in few moments, please try later
+{
+  "metadata": {
+    "exportTimestamp": "2024-11-26T06:03:49.369Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "extensionVersion": "0.0",
+    "totalLocalStorageItems": 18,
+    "totalSessionStorageItems": 2,
+    "totalCookies": 15
+  },
+  "url": "https://www.crunchyroll.com/",
+  "localStorage": {
+    "ab.storage.session_id_for_cached_metadata.80f403d2-1c18-471d-b0ef-243d1d646436": "{\"v\":\"6a34c85a-1c14-864f-ccf8-75753b6f91d7\"}",
+    "ab.storage.sdk_metadata.80f403d2-1c18-471d-b0ef-243d1d646436": "{\"v\":[\"npm\"]}",
+    "ab.storage.userId.80f403d2-1c18-471d-b0ef-243d1d646436": "{\"v\":{\"g\":\"90b6278f-225e-5a9a-a185-24ca9fc74a48\",\"c\":1732601028827,\"l\":1732601028828}}",
+    "ab.storage.device.80f403d2-1c18-471d-b0ef-243d1d646436": "{\"v\":{\"browser\":\"Chrome\",\"browser_version\":\"131\",\"os_version\":\"Mac\",\"locale\":\"en-gb\",\"time_zone\":\"Asia/Calcutta\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\"}}",
+    "ab.storage.serverConfig.80f403d2-1c18-471d-b0ef-243d1d646436": "{\"v\":{\"s\":\"4.9.0\",\"l\":1726609504,\"e\":[\"3D Touch Menu Viewed\",\"3rd Party Bundle Benefit Link Navigated\",\"AA About Selected\",\"AA All Winners Selected\",\"AA Category Selected\",\"AA Contest Entered\",\"AA FAQ Selected\",\"AA Judges Selected\",\"AA Modal Cancel\",\"AA Newsletter Subscribed\",\"AA Nominee Trailer Play Selected\",\"AA Privacy Policy Selected\",\"AA Show Selected\",\"AA Social Media Share Selected\",\"AA Terms and Conditions Selected\",\"AA This Year’s Show Selected\",\"AA Votes\",\"AA Votes Selected\",\"AA Winners Selected\",\"Account Link Failed\",\"Account Linked\",\"Account Menu Item Selected\",\"Account Menu Opened\",\"Account Menu Selected\",\"Ad Request\",\"Alternate Payment Method Reminder Displayed\",\"Anchor Navigated\",\"App Store Navigated\",\"Appl Icat Ionbackgrounded\",\"Application Backgrounded\",\"Application Crashed\",\"Application Errored\",\"Application Foregrounded\",\"Application Updated\",\"Banner Dismissed\",\"Banner Selected\",\"Beta Opt-in CTA Selected\",\"Beta Opt-in Confirmed\",\"Beta Opt-in Pop-up Dismissed\",\"Beta Opt-out Cancelled\",\"Beta Opt-out Confirmed\",\"Browse Selected\",\"CM All Set Selected\",\"CM Create Another Selected\",\"CM Create Your Own Selected\",\"CM Crunchyroll Home Selected\",\"CM Edit Mix Selected\",\"CM Filtered List Selected\",\"CM Filtered List Viewed\",\"CM Free Trial Selected\",\"CM Go Back Selected\",\"CM Scroll Down Selected\",\"CM Search Submitted\",\"CM Share Link Copied\",\"CM Share Selected\",\"CM Show Added\",\"CM Show Removed\",\"CM Show Selected\",\"CR Games App Download Selected\",\"CR Games Carousel Item Selected\",\"CR Games Carousel Scrolled\",\"CR Games External Social Network\",\"CR Games Video Played\",\"CR Games eComm Item Selected\",\"CR Legacy Featured Show Selected\",\"CR Orig Show Launch Notif Button Selected\",\"CR Orig Show Launch Notif Opt In\",\"CR Orig Show Selected\",\"CR Orig Trailer Played\",\"CR Store Button Clicked\",\"CRX About Selected\",\"CRX Artist Alley Info Selected\",\"CRX Artist Alley Selected\",\"CRX Autographs Selected\",\"CRX Buy Selected\",\"CRX Buy Ticket\",\"CRX Cosplay Gatherings Selected\",\"CRX Crew Selected\",\"CRX Event App Selected\",\"CRX Exhibitor Info Selected\",\"CRX Exhibitor Sales Selected\",\"CRX Exhibitors Selected\",\"CRX Faq Selected\",\"CRX Gaming Selected\",\"CRX General Info Selected\",\"CRX Guests Selected\",\"CRX Hotels Selected\",\"CRX Kick Off Party Selected\",\"CRX Masquerade Selected\",\"CRX Press Inquiries Selected\",\"CRX Schedule At A Glance Selected\",\"CRX Sponsorship Opportunities Selected\",\"CRX Sponsorship Selected\",\"CRX Venue Info Selected\",\"Cancel Download\",\"Cancellation Survey Submitted\",\"Cast Selected\",\"Casting Device Connected\",\"Character Selected\",\"Collection Viewed\",\"Comment Created\",\"Comment Deleted\",\"Comment Hidden\",\"Comment Liked\",\"Comment Posted\",\"Comment Reported\",\"Comment Sorted\",\"Container Updated\",\"Container Viewed\",\"Container Viewedk2qckxml37\",\"Content Rated\",\"Content Review Component Action\",\"Content Review Created\",\"Content Shared\",\"Continue Watching Selected\",\"Crunchylist Created\",\"Crunchylist Deleted\",\"Deep Link Opened\",\"Dialog For App Rating Showed\",\"Download Failed\",\"Download Succeeded\",\"Ecom CTA Selected\",\"Ecom Cart Viewed\",\"Ecom Checkout Started\",\"Ecom Checkout Step Completed\",\"Ecom Checkout Step Viewed\",\"Ecom Collection Viewed\",\"Ecom Continue Shopping Selected\",\"Ecom Order Completed\",\"Ecom Product Added\",\"Ecom Product Clicked\",\"Ecom Product List Filtered\",\"Ecom Product Removed\",\"Ecom Product Reviewed\",\"Ecom Product Shared\",\"Ecom Product Viewed\",\"Ecom Products Searched\",\"Email Changed\",\"Email changed\",\"Episode Order Opened\",\"Episode Order Selected\",\"Error\",\"Error Banner Displayed\",\"Error Banner Navigated\",\"Experiment Viewed\",\"External Refferer\",\"FAQ\",\"FETCH_DELTA_CONFIG_SUCCESS\",\"Fast Forward Selacted\",\"Fast Forward Selected\",\"Feed Filtered\",\"Feed Panel Selected\",\"Feed Sorted\",\"Flow Cancelled\",\"Free Trial Disqualified\",\"Free Trial Failed\",\"Free Trial Loaded\",\"Free Trial Selected\",\"Free Trial Selected Cancelled\",\"HM Activate VRV Selected\",\"HM CR Premium Selected\",\"HM Confirm Cancelled\",\"HM Confirm Selected\",\"HM Create Sign into VRV Selected\",\"HM Exited to Crunchyroll\",\"HM Exited to VRV\",\"HM Fan Pack Selected\",\"HM Forgot Password Selected\",\"HM Free Trial Selected Cancelled\",\"HM Get VRV Later Selected\",\"HM Get VRV Selected\",\"HM Message Dismissed\",\"HM Subscription Selected Cancelled\",\"HM Super Fan Pack Selected\",\"HM VRV Registration Failed\",\"HM VRV Registration Requested\",\"HM VRV Registration Succeeded\",\"HM VRV Video Selected\",\"HUH\",\"Hello :3\",\"Help / FAQ\",\"Help/FAQ\",\"Hero Ecom Carousel CTA Selected\",\"Home Selected\",\"In-App Review Requested\",\"Install Attributed\",\"Itunes Account Restore Attempted\",\"Itunes Account Restore Failed\",\"Itunes Account Restore Succeeded\",\"Link Accounts Permissions Agreed\",\"Link Accounts Permissions Disagree\",\"Link Accounts Requested\",\"Loaded a Screen\",\"Localization Language Selected\",\"Log in or Create Account Selected\",\"Login Failed\",\"Login Selected\",\"Login Skipped\",\"Login Succeeded😲\",\"Logout Selected\",\"Main Menu Item Selected\",\"Manga Navigated\",\"Manga Volume Navigated\",\"Manual Signin Navigated\",\"Media Removed\",\"Media Renewed\",\"Mobile Upsell Flow Go Premium Selected\",\"Onboarding Skipped\",\"Panel Selected\",\"Partner Login\",\"Partner Login Failed\",\"Partner Login Requested\",\"Partner Login Succeeded\",\"Partner Signup\",\"Partner Signup Requested\",\"Partner Signup Succeeded\",\"Password Changed\",\"Password Reset Failed\",\"Password Reset Navigated\",\"Password Reset Requested\",\"Password Reset Successful\",\"Password changed\",\"Pause Download\",\"Payment Method Selected\",\"Player Orientation Changed\",\"Player Settings Modified\",\"Player Settings Selected\",\"Privacy Selected\",\"Product Clicked\",\"Products Searched\",\"Profile Change Abandoned\",\"Profile Change Queued\",\"Profile Updated\",\"Promo Box Clicked\",\"Random Content Button Selected\",\"Registration Failed\",\"Registration Selected\",\"Registration Skipped\",\"Resume Download\",\"Rewind Selected\",\"SC Android App Selected\",\"SC Crunchy Mix Selected\",\"SC Free Trial Selected\",\"SC Show Selected\",\"SC Social Media Share Selected\",\"SFP Help/FAQ\",\"Search Navigated\",\"Search Panel Selected\",\"Search Submitted\",\"Start Watching\",\"Subscription Canceled\",\"Subscription Cancelled Failed\",\"Subscription Checkout Cancelled\",\"Subscription Failed\",\"Subscription Selected\",\"Subscription Status Requested\",\"Sync All Removed\",\"Sync All Started\",\"Sync All Stopped\",\"Terms Selected\",\"Test Event Name\",\"Upsell Displayed\",\"Upsell Selected\",\"User Waited for First Ad\",\"User Waited for Video Start\",\"V Ideo Pla Y Requested\",\"V Ideo Pla Y Startedfro Mbeg Inn Ing\",\"V Ideoheartbeat\",\"Verify email link requested\",\"Video Ad Break Completed\",\"Video Ad Break C�mpleted\",\"Video Ad Break Kompleted\",\"Video Ad Break Started\",\"Video Ad ClickThrough\",\"Video Ad Completed\",\"Video Ad Error\",\"Video Ad Impression\",\"Video Ad Skipped\",\"Video Ad Slot Started\",\"Video Ad Started\",\"Video Btffering Ended\",\"Video BuffEring Ended\",\"Video Buffering Ended\",\"Video Buffering Started\",\"Video Error\",\"Video Error Dump\",\"Video Error Other\",\"Video Heartbeat\",\"Video Paused\",\"Video Play Re`uested\",\"Video Play Requested( Concierge. Video Play Requested Info())\",\"Video Play Started From Beginning\",\"Video Problem Reported\",\"Video Progress Bar Scrubbed\",\"Video Seeked\",\"Video Unpaused\",\"Viewed Account Screen\",\"Viewed Add to Crunchylist Modal Screen\",\"Viewed All Crunchylists Screen\",\"Viewed Anime Screen\"],\"a\":[\"$where\",\"In MP_AUD_66_CR_VIEWERSHIP\",\"In MP_AUD_6_CR_VIEWERSHIP\",\"Index\",\"RU_Canc_FT_Code\",\"\\\\serId\",\"\\\\sername\",\"_update_existing_only\",\"account_created_date_2\",\"address.country\",\"amzn_dep_code_202201\",\"android_in_app_marketing\",\"apn,\",\"apns\",\"avatarId\",\"bill_err_amount\",\"bill_err_amount_corr\",\"buddy_requests\",\"code_1_mo_prem\",\"code_1_mo_prem_2\",\"code_1_yr_prem\",\"code_1_yr_prem_2\",\"code_1_yr_prem_3\",\"code_1_yr_prem_4\",\"code_1_yr_prem_5\",\"code_3_mo_prem\",\"code_3_mo_prem_2\",\"code_crx_pass\",\"code_crx_pass_2\",\"code_crx_pass_3\",\"code_crx_pass_4\",\"creaeetAt\",\"createdAt1\",\"createdAt2\",\"createdAt3\",\"createdA|\",\"custom_attribute.${Language}\",\"email\",\"emiil\",\"friends\",\"global_event_id\",\"group_invitations\",\"group_join_requests\",\"group_mod_updates\",\"hbomax_code\",\"isFreeTrialEl)gible\",\"isFreeTrialEligible\",\"library_edit_updates\",\"linkCR\",\"megafan_2021_q3\",\"megafan_code_112320\",\"munchpak_url\",\"new_guestbook_entries\",\"new_photo_comments\",\"newsletter\",\"premium\",\"primerewards_code_link\",\"push_token\",\"queue_updates\",\"quoted_forum_posts\",\"refe2rer\",\"referrer\",\"referring_domain\",\"referring_domayn\",\"refund_curr\",\"request_id\",\"rightstuf_code\",\"role\",\"ru_xbox_code\",\"s,bStatus\",\"segmentId\",\"subStatus\",\"subtitle_language\",\"syncUsingCellular\",\"test\",\"testValue1\",\"testValue10\",\"testValue2\",\"testValue3\",\"testValue4\",\"testValue5\",\"testValue6\",\"testValue7\",\"testValue8\",\"testValue9\",\"test_promocode\",\"timeIncId\",\"timezone\",\"timezoneOffset\",\"token\",\"trait1\",\"trait2\",\"trait3\",\"ultimatefan_2021_q3\",\"ultimatefan_code_112320\",\"user_country_code\",\"utm_sourae\",\"utm_source\",\"utm_term\",\"vrv_account_id\",\"wifiDownloadOnly\"],\"p\":[],\"m\":21600,\"v\":\"BB9RYm2yXQ06QfGiAGOHWWrCx17agSOvW1rjpk65E0RcNOPlMCLwbylSWAgoHvFgXfxCnFgdAMSwrzAyjhicrfg=\",\"c\":{\"enabled\":true},\"f\":{\"enabled\":false}}}",
+    "PERSISTED_REDUX_STATE_90b6278f-225e-5a9a-a185-24ca9fc74a48": "{\"global\":{\"upsell\":{\"isPopupClosable\":true}},\"watch\":{\"videoPlayer\":{\"playerPreferences\":{\"isUpNextAutoplayEnabled\":true}}},\"userManagement\":{\"accountPage\":{\"preferences\":{\"isClosedCaptionsEnabled\":false}},\"account\":{\"prevTokenFetchTimestamp\":1732601026892,\"rtId\":\"ct2m86h4ic54d0fuuhig\",\"prevSessionIsUserPremium\":true},\"multipleProfiles\":{\"wasProfileSelected\":true}},\"series\":{\"episodeSort\":\"asc\"}}",
+    "ab.storage.deviceId.80f403d2-1c18-471d-b0ef-243d1d646436": "{\"v\":{\"g\":\"c2ef3e6a-cfaf-0c6c-3cd0-0e63dff67059\",\"c\":1732601028828,\"l\":1732601028828}}",
+    "persist:checkout": "{\"selectedSku\":\"null\",\"isSkipFreeTrial\":\"false\",\"isSkipBilling\":\"false\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}",
+    "ab.storage.messagingSessionStart.80f403d2-1c18-471d-b0ef-243d1d646436": "{\"v\":1732601028827}",
+    "APP_RETRY_BACKOFF": "5000",
+    "ab.storage.lastReqToEndpoint.80f403d2-1c18-471d-b0ef-243d1d646436": "{\"v\":{\"d\":1732601028830,\"cc\":1732601029307}}",
+    "ab.storage.requestAttempts.80f403d2-1c18-471d-b0ef-243d1d646436": "{\"v\":{\"d\":1}}",
+    "ab.storage.brazeSyncRetryCount.80f403d2-1c18-471d-b0ef-243d1d646436": "{\"v\":0}",
+    "ab.storage.sessionId.80f403d2-1c18-471d-b0ef-243d1d646436": "{\"v\":{\"g\":\"6a34c85a-1c14-864f-ccf8-75753b6f91d7\",\"e\":1732602828830,\"c\":1732601028827,\"l\":1732601028830}}",
+    "ajs_anonymous_id": "\"4a643dfd-5799-4218-b0f7-54c2ae514e95\"",
+    "ajs_user_traits": "{\"anonymousId\":\"4a643dfd-5799-4218-b0f7-54c2ae514e95\",\"subStatus\":\"Premium\",\"externalUserId\":\"1112679893\",\"email\":\"mauricio.castro.se@puenteeduca.cl\",\"referrer\":\"https://sso.crunchyroll.com/\",\"referring_domain\":\"sso.crunchyroll.com\",\"username\":\"mauricioggut\",\"profileId\":\"90b6278f-225e-5a9a-a185-24ca9fc74a48\"}",
+    "ajs_user_id": "\"90b6278f-225e-5a9a-a185-24ca9fc74a48\"",
+    "ab.storage.ccLastClientRequest.80f403d2-1c18-471d-b0ef-243d1d646436": "{\"v\":1732601029307}"
+  },
+  "sessionStorage": {
+    "cx-has-active-instance": "true",
+    "cx-tab-id": "\"f643e5c0-b014-45cc-884e-c9eb2524c8e4\""
+  },
+  "cookies": [
+    {
+      "name": "SSID_GuUe",
+      "value": "CQDIth0OAAAAAAAAZEVnNO8AEABkRWcBAAAAAAAAAAAAAGRFZwDzVJxPAQMSQSkAAGRFZwEA",
+      "domain": ".crunchyroll.com",
+      "secure": false,
+      "httpOnly": false
+    },
+    {
+      "name": "SSSC_GuUe",
+      "value": "972.G7441463910730886964.1|85916.2703634",
+      "domain": ".crunchyroll.com",
+      "secure": false,
+      "httpOnly": false
+    },
+    {
+      "name": "__cf_bm",
+      "value": "POloiuVIuLFCHowNsbDm5ws7E6s9kS_ddpOhADKOi3U-1732600833-1.0.1.1-L7UODqowZTIuBYY95pylJhAhtkTFtkJ1gye2LR64QIxnleD2YDMLTKVI5vnUIvYVxTg6x7c1tVD0y90zp975GP_GlyMV4xJzOTjm7mxCqXE",
+      "domain": ".crunchyroll.com",
+      "secure": true,
+      "httpOnly": true
+    },
+    {
+      "name": "ajs_anonymous_id",
+      "value": "4a643dfd-5799-4218-b0f7-54c2ae514e95",
+      "domain": ".crunchyroll.com",
+      "secure": false,
+      "httpOnly": false
+    },
+    {
+      "name": "c_locale",
+      "value": "enUS",
+      "domain": ".crunchyroll.com",
+      "secure": false,
+      "httpOnly": false
+    },
+    {
+      "name": "__cfruid",
+      "value": "798242574b010fac3edaec895297ce5cf5d1209d-1732600843",
+      "domain": ".crunchyroll.com",
+      "secure": true,
+      "httpOnly": true
+    },
+    {
+      "name": "device_id",
+      "value": "4fef97f0-0b71-4efc-84d9-1893d50d38ef",
+      "domain": ".crunchyroll.com",
+      "secure": true,
+      "httpOnly": false
+    },
+    {
+      "name": "etp_rt",
+      "value": "f0b9a0bb-08d5-490c-b78f-3573d12ea27b",
+      "domain": ".crunchyroll.com",
+      "secure": true,
+      "httpOnly": true
+    },
+    {
+      "name": "ajs_user_id",
+      "value": "90b6278f-225e-5a9a-a185-24ca9fc74a48",
+      "domain": ".crunchyroll.com",
+      "secure": false,
+      "httpOnly": false
+    },
+    {
+      "name": "SSRT_GuUe",
+      "value": "wmRFZwADAA",
+      "domain": ".crunchyroll.com",
+      "secure": false,
+      "httpOnly": false
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled=0&datestamp=Tue+Nov+26+2024+11%3A33%3A46+GMT%2B0530+(India+Standard+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=133ef7f5-db7e-4a5c-8d58-f67d6dbc22ad&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0&AwaitingReconsent=false",
+      "domain": ".www.crunchyroll.com",
+      "secure": false,
+      "httpOnly": false
+    },
+    {
+      "name": "ab.storage.userId.80f403d2-1c18-471d-b0ef-243d1d646436",
+      "value": "%7B%22g%22%3A%2290b6278f-225e-5a9a-a185-24ca9fc74a48%22%2C%22c%22%3A1732601028827%2C%22l%22%3A1732601028828%7D",
+      "domain": ".crunchyroll.com",
+      "secure": false,
+      "httpOnly": false
+    },
+    {
+      "name": "ab.storage.deviceId.80f403d2-1c18-471d-b0ef-243d1d646436",
+      "value": "%7B%22g%22%3A%22c2ef3e6a-cfaf-0c6c-3cd0-0e63dff67059%22%2C%22c%22%3A1732601028828%2C%22l%22%3A1732601028828%7D",
+      "domain": ".crunchyroll.com",
+      "secure": false,
+      "httpOnly": false
+    },
+    {
+      "name": "ab.storage.sessionId.80f403d2-1c18-471d-b0ef-243d1d646436",
+      "value": "%7B%22g%22%3A%226a34c85a-1c14-864f-ccf8-75753b6f91d7%22%2C%22e%22%3A1732602828830%2C%22c%22%3A1732601028827%2C%22l%22%3A1732601028830%7D",
+      "domain": ".crunchyroll.com",
+      "secure": false,
+      "httpOnly": false
+    },
+    {
+      "name": "_dd_s",
+      "value": "rum=2&id=f556c2cf-86d9-4c34-a604-6b7113d9bc1b&created=1732600833920&expire=1732601926878",
+      "domain": "www.crunchyroll.com",
+      "secure": false,
+      "httpOnly": false
+    }
+  ]
+}
